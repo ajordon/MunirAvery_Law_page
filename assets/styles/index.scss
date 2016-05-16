@@ -15,6 +15,23 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
     color: #FFFFFF;
 }
 
+.text-secondary {
+  color: #337ab7;
+}
+
+.navbar-brand.page-scroll {
+  font-size: 1.9em !important;
+}
+
+.logo.fa.fa-book {
+  color: #337ab7 !important;
+}
+
+#services .lead,
+#services h2 {
+    color: #999 !important;
+}
+
 body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
