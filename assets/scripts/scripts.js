@@ -11,9 +11,16 @@
             top: 200
         }
     });
-    
+
+    //#main-slider
+	$(function(){
+		$('#main-slider.carousel').carousel({
+			interval: 8000
+		});
+	});
+
     new WOW().init();
-    
+
     $('a.page-scroll').bind('click', function(event) {
         var $ele = $(this);
         $('html, body').stop().animate({
@@ -21,7 +28,7 @@
         }, 1450, 'easeInOutExpo');
         event.preventDefault();
     });
-    
+
     $('.navbar-collapse ul li a').click(function() {
         /* always close responsive nav after click */
         $('.navbar-toggle:visible').click();
