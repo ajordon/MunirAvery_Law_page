@@ -7,6 +7,14 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 *******Typography******
 **************************/
 
+.logo {
+  position: absolute;
+  background-color: #F5F5F5;
+  border: 3px solid #777;
+  border-radius: 3px;
+  box-shadow: 2px 4px 3px #555;
+}
+
 .img-responsive {
   transform: rotate(-90deg);
 }
@@ -19,13 +27,30 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
   color: #337ab7;
 }
 
+.getincontact {
+  border: 2px solid #337ab7;
+  padding-bottom: 3%;
+  border-radius: 13px;
+  padding-top: 4%;
+}
+
+.getincontact p {
+  color: #337ab7;
+  font-size: 26px;
+}
+
+.getincontact i {
+  border: 3px solid #337ab7 !important;
+}
+
 .navbar-brand.page-scroll {
   font-size: 2.2em !important;
   font-family: 'PT Serif', serif !important;
   background-color: white !important;
   color: #000 !important;
   text-align: center !important;
-  z-index: 2;
+  z-index: 5 !important;
+  position: absolute !important;
 }
 
 strong {
@@ -572,13 +597,18 @@ ul.social-share li a:hover {
   margin-right: 25px;
 }
 
+.feature-wrap ul {
+  float: left;
+
+}
+
 .feature-wrap i{
-  font-size: 48px;
-  height: 110px;
-  width: 110px;
+  font-size: 34px;
+  height: 85px;
+  width: 85px;
   margin: 3px;
   border-radius: 100%;
-  line-height: 110px;
+  line-height: 85px;
   text-align:center;
   background: #ffffff;
   color: #337ab7;
