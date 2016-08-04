@@ -48,14 +48,11 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 
 .logo {
   position: absolute;
-  background-color: #FBFAFA;
-  border: 1px solid #777;
+  // background-color: #252525;
+  background-color: rgba(16, 15, 15, 0.9);
+  border: 1px solid #fff;
   border-radius: 3px;
   box-shadow: 1px 1px 1px 1px #555;
-}
-
-.img-responsive {
-  transform: rotate(-90deg);
 }
 
 .text-primary {
